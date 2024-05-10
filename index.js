@@ -18,7 +18,3 @@ const matchName = (array, string) => {
   const driverName = string.toUpperCase()
   return array.filter(item => item.name.toUpperCase() === driverName)
 }
-
-console.log(findMatching(drivers, 'Sarah'))
-console.log(fuzzyMatch(drivers, 'Bob'))
-
